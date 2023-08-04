@@ -177,14 +177,39 @@ nav a:hover {
   margin: 0 auto;
   padding: 0 25px;
   width: 100%;
+  text-align: center;
+}
+
+.footer-container p {
+  font-size: 0.9rem;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1);
 }
 
 iframe {
   display: inline-block;
 }
 
-.mapa {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+.copy {
+  /* display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)); */
   margin-bottom: 100px;
+  text-align: center;
+}
+
+.footer-container .name {
+  display: flex;
+  justify-content: right;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #892af6;
+  opacity: 0.4;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-container .name:hover {
+  transform: scale(1.3);
+  color: #dd16f4;
+  opacity: 0.6;
 }
