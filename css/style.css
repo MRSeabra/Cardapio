@@ -1,4 +1,5 @@
 @import url("variables.css");
+@import url("responsivo.css");
 
 html {
   margin: 0;
@@ -122,7 +123,7 @@ nav ul {
 nav a {
   display: inline-block;
   text-decoration: none;
-  color: #be58f4;
+  color: var(--nav-link);
   font-size: 1.2rem;
   font-weight: 500;
   transition: all 0.3s ease-in-out;
@@ -131,7 +132,7 @@ nav a {
 
 nav a:hover {
   transform: scale(1.1);
-  color: #fa4ebd;
+  color: var(--nav-hover);
 }
 
 .title {
@@ -151,6 +152,15 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 48px;
+}
+
+.cards h2 {
+  font-size: 27px;
+  color: var(--titulo);
+}
+
+.cards p {
+  color: var(--texto);
 }
 
 .imagem {
@@ -175,7 +185,7 @@ nav a:hover {
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 25px;
+  padding: 0 25px 35px;
   width: 100%;
   text-align: center;
 }
@@ -184,6 +194,7 @@ nav a:hover {
   font-size: 0.9rem;
   transition: all 0.3s ease-in-out;
   transform: scale(1);
+  color: var(--texto-footer);
 }
 
 iframe {
@@ -195,6 +206,12 @@ iframe {
   grid-template-columns: repeat(2, minmax(0, 1fr)); */
   margin-bottom: 100px;
   text-align: center;
+  color: var(--titulo);
+}
+
+.copy p {
+  font-size: 1rem;
+  color: var(--texto);
 }
 
 .footer-container .name {
@@ -202,7 +219,7 @@ iframe {
   justify-content: right;
   font-size: 0.8rem;
   font-weight: 700;
-  color: #892af6;
+  color: var(--seabra-1);
   opacity: 0.4;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
@@ -210,6 +227,6 @@ iframe {
 
 .footer-container .name:hover {
   transform: scale(1.3);
-  color: #dd16f4;
+  color: var(--seabra-1-hover);
   opacity: 0.6;
 }

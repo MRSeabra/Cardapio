@@ -1,4 +1,11 @@
-*{
-    --blue: #151f42;
-    --gradient: linear-gradient(90deg, #4568dc, #b06ab3);
+* {
+  --blue: #151f42;
+  --titulo: rgba(21, 31, 66, 0.9);
+  --texto: #5e5e5e;
+  --texto-footer: #ababab;
+  --gradient: linear-gradient(90deg, #4568dc, #b06ab3);
+  --nav-link: #be58f4;
+  --nav-hover: #fa4ebd;
+  --seabra-1: #892af6;
+  --seabra-1-hover: #dd16f4;
 }

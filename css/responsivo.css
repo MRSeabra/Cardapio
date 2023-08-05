@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+  .cards .imagem {
+    width: 100%;
+    height: 150px;
+  }
+
+  .mapa iframe {
+    display: none;
+  }
+
+  .footer-container .name {
+    display: flex;
+    justify-content: left;
+  }
+}
