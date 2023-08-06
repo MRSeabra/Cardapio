@@ -214,7 +214,7 @@ iframe {
   color: var(--texto);
 }
 
-.footer-container .name {
+.footer-container .name-1 {
   display: flex;
   justify-content: right;
   font-size: 0.8rem;
@@ -225,7 +225,7 @@ iframe {
   transition: all 0.3s ease-in-out;
 }
 
-.footer-container .name:hover {
+.footer-container .name-1:hover {
   transform: scale(1.3);
   color: var(--seabra-1-hover);
   opacity: 0.6;

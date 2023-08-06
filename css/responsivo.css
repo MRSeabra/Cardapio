@@ -1,4 +1,15 @@
 @media (max-width: 600px) {
+  header .logo img {
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    text-align: center;
+  }
+
+  .logo img {
+    text-align: center;
+  }
+
   .cards .imagem {
     width: 100%;
     height: 150px;
@@ -8,8 +19,20 @@
     display: none;
   }
 
-  .footer-container .name {
+  .footer-container .name-1 {
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--seabra-1);
+    opacity: 0.4;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .footer-container .name-1:hover {
+    transform: rotate;
+    color: var(--seabra-1-hover);
+    opacity: 0.6;
   }
 }
