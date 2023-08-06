@@ -36,3 +36,5 @@
     opacity: 0.6;
   }
 }
+
+@media (max-width: 390px);
