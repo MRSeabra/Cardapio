@@ -1,4 +1,4 @@
-* {
+:root {
   --blue: #151f42;
   --titulo: rgba(21, 31, 66, 0.9);
   --texto: #5e5e5e;
@@ -8,4 +8,8 @@
   --nav-hover: #fa4ebd;
   --seabra-1: #892af6;
   --seabra-1-hover: #dd16f4;
+  --phone: 360px;
+  --tablet: 768px;
+  --desktop-small: 1024px;
+  --desktop: 1280px;
 }
