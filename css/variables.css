@@ -1,6 +1,7 @@
 :root {
   --blue: #151f42;
   --titulo: rgba(21, 31, 66, 0.9);
+  --titulo-2: #000;
   --texto: #5e5e5e;
   --texto-footer: #ababab;
   --gradient: linear-gradient(90deg, #4568dc, #b06ab3);
@@ -12,4 +13,17 @@
   --tablet: 768px;
   --desktop-small: 1024px;
   --desktop: 1280px;
+  --fundo1: #fff;
+  --dot: url("../img/dot.svg");
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fundo1: #131b3b;
+    --titulo: #f7f7f7;
+    --titulo-2: #faccf9;
+    --texto: #d9d9d9;
+    --seabra-1: #0f2;
+    --dot: url("../img/dot_dark.svg");
+  }
 }

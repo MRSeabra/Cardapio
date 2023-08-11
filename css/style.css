@@ -11,6 +11,7 @@ html {
 }
 
 body {
+  background-color: var(--fundo1);
   overflow-x: hidden;
   margin: 0;
   padding: 0;
@@ -118,8 +119,8 @@ nav {
   background: #fff;
   width: 100%;
   padding: 5px 5px;
-
   z-index: 2;
+  background-color: var(--fundo1);
 }
 
 nav ul {
@@ -154,15 +155,16 @@ nav a:hover {
 }
 
 .title {
-  background-image: url(../img/dot.svg);
+  background-image: var(--dot);
   background-repeat: repeat-x;
   background-position: right center;
   background-size: 18px;
+  color: var(--titulo-2);
 }
 
 .title h1 {
   padding-right: 20px;
-  background: white;
+  background: var(--fundo1);
   display: inline-block;
 }
 
@@ -185,6 +187,10 @@ nav a:hover {
 }
 
 .cards p {
+  color: var(--texto);
+}
+
+.preco {
   color: var(--texto);
 }
 
